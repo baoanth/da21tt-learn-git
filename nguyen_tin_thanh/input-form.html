@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     
-
-<h2>HTML Forms</h2>
-
-
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
+<div class="container">
+    <div class="row">
+         <h2 class="mx-auto col-12">HTML Forms</h2>
 
 
-  <h2>HTML Forms</h2>
-
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> 
-
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+        <form action="/action_page.php" class="form-control col-12">
+          <label for="fname" class="col-5">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John" class="col-5"><br>
+          <label for="lname">Last name:</label><br>
+        
+        
+          
+        
+          <input type="text" id="lname" name="lname" value="Doe" ><br><br>
+          <input type="submit" value="Submit" class="btn btn-primary">
+        </form> 
+        
+        
+        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p></div>
+    
+   
+    </div>
 
 
 
