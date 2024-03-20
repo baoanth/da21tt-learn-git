@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh">
+      <div class="card shadow rounded" style="width: 40rem">
+        <div class="card-body p-5">
+          <h2 class="text-center">HTML Forms</h2>
+          <form action="/action_page.php" class="mb-3">
+            <div class="form-group">
+              <label for="fname">First name:</label>
+              <input class="form-control" type="text" id="fname" name="fname" value="John" />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last name:</label>
+              <input class="form-control" type="text" id="lname" name="lname" value="Doe" />
+            </div>
+            <input type="submit" class="btn btn-primary" value="Submit" />
+          </form>
+
+          <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
