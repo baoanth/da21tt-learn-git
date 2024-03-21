@@ -4,25 +4,23 @@
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css//bootstrap.min.css" />
   </head>
   <body>
-    <div class="container d-flex flex-column justify-content-center">
-      <h2>HTML Forms</h2>
-
-      <form>
-        <div class="mb-3">
-          <label for="input1" class="form-label">First name:</label>
-          <input type="text" class="form-control" id="input1" value="John" />
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="min-height: 100vh;">
+          <div class="col-md-6">
+            <h2 class="text-center">Bootstrap Form Example</h2>
+            <form>
+              <div class="mb-3">
+                <label for="input1" class="form-label">First name:</label>
+                <input type="text" class="form-control" id="input1" value="John">
+              </div>
+              <div class="mb-3">
+                <label for="input2" class="form-label">Last name:</label>
+                <input type="text" class="form-control" id="input2" value="Doe">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="input2" class="form-label" v>Last name:</label>
-          <input type="text" class="form-control" id="input2" value="Doe" />
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-
-      <p>
-        If you click the "Submit" button, the form-data will be sent to a page called
-        "/action_page.php".
-      </p>
-    </div>
+      </div>
   </body>
 </html>
